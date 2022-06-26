@@ -2,7 +2,7 @@ Credit_Risk_Analysis
 
 Overview of the analysis
 
-This challenge involved building and evaluating select machine learning models to predict credit risk.
+This challenge involved building and evaluating select machine learning models to predict the credit risk of loan applicants.
 
 Results
 
@@ -38,12 +38,13 @@ Ensembler Classifiers (BalancedRandomForestClassifer) precision and recall:
 
 Summary 
 
-Of the three models reviewed, the BalancedRandomForestClassifer yielded the best overall results with an accuracy rate of 79% when predicting high risk candidates. With a precision rate of 3% and sensitivity rate that was the second highest of the three models at 70%, this is the model that would be recommended.  Note: Although  
-the EasyEnsembleClassifier was not considered for recommendation, it resulted in an accuracy rate of 93%, a precision score of 9%, and recall of 92%.
+Of the three models reviewed, the BalancedRandomForestClassifer yielded the best overall results with an accuracy rate of 79% when predicting high risk candidates. With a precision rate of 3% and sensitivity rate that was the second highest of the three models at 70%, this is the model that would be recommended.  Note: Although the EasyEnsembleClassifier was not considered for recommendation, it resulted in an accuracy rate of 93%, a precision score of 9%, and recall of 92%.
 
 Models based on "High Risk"
 
-Resample: 62.0% accuracy, 1% precision, 64% recall 
+Resample: 62.0% accuracy, 1% precision, 64% recall
+
 SMOTEENN: 51% accuracy, 1% precision, 73% recall
+
 BalancedRandomForestClassifer: 79% accuracy, 3% precision, 70% recall
 
