@@ -6,7 +6,8 @@ This challenge involved building and evaluating select machine learning models t
 
 Results
 
-One way of validating a model's performance is by its accuracy score. The following is a list of three models for predicting credit risk and their associated accuracy scores:
+One way of validating a model's performance is by its accuracy score. The following is a list of three models for predicting credit risk and their associated accuracy scores and the precision and recall scores:
+
 
 Resampling model accuracy score:
 
@@ -28,11 +29,21 @@ Ensemble Classifiers accuracy score:
 
 ![image](https://user-images.githubusercontent.com/100803302/175836037-63026fcb-0f68-469f-b141-73a55a50d843.png)
   
-Ensembler Classifiers precision:
+Ensembler Classifiers precision and recall:
 
-![image](https://user-images.githubusercontent.com/100803302/175836134-8504fd26-2cda-492d-9dad-95da4d3c37ab.png)
+![image](https://user-images.githubusercontent.com/100803302/175837350-7a87067e-d010-41e1-a468-8dbaf5bf6a84.png)
+
   
 
 Summary 
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+Of the models reviewed, the EasyEnsembleClassifer model yielded the best results with an accuracy rate of 79% and a 9% precision rate when predicting "High Risk candidates. The sensitivity rate (aka recall) was also the highest at 92% compared to the other models. The result for predicting "Low Risk" was also the highest with the sensitivity rate at 94% and an F1 score of 97%. Therefore, if a model needed to be recommended to perform this type of analysis, then this one would be the clear choice.
+
+Ranking of models in descending order based on "High Risk" results:
+
+EasyEnsembleClassifer: 93.2% accuracy, 9% precision, 92% recall, and 16% F1 Score
+BalancedRandomForestClassifer: 78.9% accuracy, 3% precision, 70% recall and 6% F1 Score
+SMOTE: 65.2% accuracy, 1% precision, 61% recall and 2% F1 Score
+SMOTEENN: 64.5% accuracy, 1% precision, 72% recall and 2% F1 Score
+RandomOverSampler: 64.0% accuracy, 1% precision, 66% recall and 2% F1 Score
+ClusterCentroids: 54.5% accuracy, 1% precision, 69% recall and 1% F1 Score
