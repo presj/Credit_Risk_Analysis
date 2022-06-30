@@ -18,6 +18,14 @@ Resampling (RandomOverSampler) precision and recall:
 ![image](https://user-images.githubusercontent.com/100803302/175837433-9e99f03e-4973-4502-9271-42e8d82cf4d7.png)
 ![image](https://user-images.githubusercontent.com/100803302/175837454-4d67252b-2480-46e4-9e05-d22d139fe780.png)
   
+SMOTE (Oversampling) accuracy, precision, and recall:
+
+![image](https://user-images.githubusercontent.com/100803302/176679400-fb93339d-367a-4cd3-8b2a-6a6e458f1232.png)
+
+ClusterCentroid: accuracy, precision, and recall:
+
+![image](https://user-images.githubusercontent.com/100803302/176679719-8fda544e-2bbf-496f-88f7-5b7a00a8c0b7.png)
+
 SMOTEENN (Combination Sampling) algorithm accuracy score:
 
 ![image](https://user-images.githubusercontent.com/100803302/175835936-3b53d4fb-3287-4d08-8fd5-c05bd08a7714.png)
