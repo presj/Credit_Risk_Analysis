@@ -9,14 +9,9 @@ Results
 One way of validating a model's performance is by its accuracy score. The following is a list of three models for predicting credit risk and their associated accuracy scores and the precision and recall scores:
 
 
-Resampling model (RandomOverSampler) accuracy score:
+Resampling model (RandomOverSampler) accuracy score, precision, and recall:
 
-![image](https://user-images.githubusercontent.com/100803302/175835763-3b7b69c7-7ffe-4155-b9f1-496528312adf.png)
-  
-Resampling (RandomOverSampler) precision and recall:
-
-![image](https://user-images.githubusercontent.com/100803302/175837433-9e99f03e-4973-4502-9271-42e8d82cf4d7.png)
-![image](https://user-images.githubusercontent.com/100803302/175837454-4d67252b-2480-46e4-9e05-d22d139fe780.png)
+![image](https://user-images.githubusercontent.com/100803302/176680398-c80687b8-bf62-47b8-afe8-9d8ddd37036c.png)
   
 SMOTE (Oversampling) accuracy, precision, and recall:
 
@@ -26,13 +21,9 @@ ClusterCentroid: accuracy, precision, and recall:
 
 ![image](https://user-images.githubusercontent.com/100803302/176679719-8fda544e-2bbf-496f-88f7-5b7a00a8c0b7.png)
 
-SMOTEENN (Combination Sampling) algorithm accuracy score:
+SMOTEENN (Combination Sampling) accuracy score, precision, and recall:
 
-![image](https://user-images.githubusercontent.com/100803302/175835936-3b53d4fb-3287-4d08-8fd5-c05bd08a7714.png)
- 
-SMOTEENN (Combination Sampling) algorithm precision and recall:
-
-![image](https://user-images.githubusercontent.com/100803302/175837494-2e915549-189f-40dd-8761-00e500afb1c4.png)
+![image](https://user-images.githubusercontent.com/100803302/176680064-67f05368-809a-4aa2-a3cc-bdb73540a130.png)
 
 Ensembler Classifiers (BalancedRandomForestClassifer) accuracy score:
 
